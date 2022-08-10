@@ -32,7 +32,7 @@ function send(fri,fricrush)
 {
 senddata.child(fri).set({
 Friend_Name:fri,
-Friend_Crush_Name:fri,
+Friend_Crush_Name:fricrush,
 }); 
 }
 
