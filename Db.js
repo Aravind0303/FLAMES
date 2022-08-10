@@ -18,8 +18,8 @@ function sc(e)
 {
 e.preventDefault();
 
-var fri=getVal("plz");
-var fricrush=getVal("pleas");
+// var fri=getVal("plz");
+// var fricrush=getVal("pleas");
 // send(fri,fricrush);
 }
 
