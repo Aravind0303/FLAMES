@@ -20,19 +20,19 @@ e.preventDefault();
 
 var fri=getVal("plz");
 var fricrush=getVal("pleas");
-send(fri,fricrush);
+// send(fri,fricrush);
 }
 
-function getVal(id)
-{
-return document.getElementById(id).value;
-}
+// function getVal(id)
+// {
+// return document.getElementById(id).value;
+// }
 
-function send(fri,fricrush)
-{
-senddata.child(fri).set({
-Friend_Name:fri,
-Friend_Crush_Name:fricrush,
-}); 
-}
+// function send(fri,fricrush)
+// {
+// senddata.child(fri).set({
+// Friend_Name:fri,
+// Friend_Crush_Name:fricrush,
+// }); 
+// }
 
